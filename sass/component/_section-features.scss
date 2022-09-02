@@ -6,9 +6,7 @@
   list-style: none;
 }
 .features__icon-bgd {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centering-flex;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;

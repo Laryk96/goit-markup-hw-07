@@ -18,6 +18,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+
 }
 
 .card-set {
@@ -32,15 +33,13 @@
   position: relative;
 }
 .card-set__overlay {
+  @include centering-flex;
   position: absolute;
   left: 0;
   bottom: 0;
   height: 70px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;

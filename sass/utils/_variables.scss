@@ -7,36 +7,33 @@ $header-height: 80px;
 // "main": "Roboto", sans-serif,
 // );
 
-$gap:(
-'items': 3,
-'indent': 30px,
+$gap: (
+  "items": 3,
+  "indent": 30px,
 );
-
 
 $text-color: (
-'main': #757575,
-'titel': #212121,
-'white': #ffffff,
-'black': #000000,
-'blue': #2196f3,
+  "main": #757575,
+  "titel": #212121,
+  "white": #ffffff,
+  "black": #000000,
+  "blue": #2196f3,
 );
 
-
-$other-color:(
-'accent': #2f303a,
-'activ-blue': #2196f3,
-'btn-filter': #f5f4fa,
-'border-portfolio': #eeeeee,
+$other-color: (
+  "accent": #2f303a,
+  "activ-blue": #2196f3,
+  "btn-filter": #f5f4fa,
+  "border-portfolio": #eeeeee,
 );
 
 $icon-color: (
-'icon-main': #afb1b8,
+  "icon-main": #afb1b8,
 );
 
-
 $timing-fucnction: cubic-bezier(0.4, 0, 0.2, 1);
-
 
 @function getColor($key) {
   @return map-get($colors, $key);
 }
+
