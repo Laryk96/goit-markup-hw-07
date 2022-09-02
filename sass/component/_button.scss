@@ -1,0 +1,74 @@
+.btn {
+  padding: 10px 32px;
+  min-width: 216px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  &:active {
+    background-color: #188ce8;
+  }
+}
+
+/**
+  |============================
+  |     footer - subscribe
+  |============================
+*/
+
+.btn--subscribe {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px;
+
+  &:active {
+    background-color: #188ce8;
+  }
+}
+.btn-icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
+
+/**
+  |============================
+  |      modal - window
+  |============================
+*/
+
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-close__icon {
+  color: currentColor;
+}
+
+// send
+
+.btn--send {
+  display: block;
+  margin: 0 auto;
+  min-width: 200px;
+  padding: 10px 52px;
+}
