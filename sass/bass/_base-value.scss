@@ -1,7 +1,7 @@
 body {
-  color: #757575;
-  font-family: "Roboto";
-  padding-top: 80px;
+  color: text(main-gray);
+  font-family: $font-main;
+  padding-top: $header-height;
 }
 
 h1,

@@ -3,13 +3,13 @@
   top: 0;
   width: 100%;
 
-  background-color: #fff;
-  border-bottom: 1px solid #ececec;
+  background-color: $section-white;
+  border-bottom: 1px solid $border-special-color;
   z-index: 2;
 }
 
 .page-header__container {
-  height: 80px;
+  height: $header-height;
   display: flex;
 }
 .page-header__nav {

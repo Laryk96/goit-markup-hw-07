@@ -7,13 +7,13 @@
   font-size: 26px;
   line-height: 1.192;
   text-decoration: none;
-  color: #000;
+  color: logo(header-black);
 }
 .logo__label {
-  color: #2196f3;
+  color: logo(label);
 }
 
 .footer__logo {
-  color: #fff;
+  color: logo(footer-white);
   margin-bottom: 20px;
 }

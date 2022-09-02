@@ -5,13 +5,13 @@
   padding: 200px 0;
 
   text-align: center;
-  background-color: #c4c4c4;
+  background-color: $alt-bgd;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/hero/hero.jpg);
+    url(../images/hero/hero.jpg);
 }
 
 .main-section__title {
@@ -24,7 +24,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  color: #ffffff;
+  color: text(other-white);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;

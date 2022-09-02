@@ -1,4 +1,4 @@
-@mixin border-desc($width:1px, $type:solid, $color:#eeeeee) {
+@mixin border-desc($width:1px, $type:solid, $color:$border-special-color) {
   border-left: $width $type $color;
   border-bottom: $width $type $color;
   border-right: $width $type $color;

@@ -36,9 +36,9 @@ form {
 
   &:hover,
   &:focus {
-    border-color: #2196f3;
+    border-color: $hover-blue;
   }
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms $cubic;
 }
 
 .form__icon {
@@ -47,11 +47,12 @@ form {
   left: 12px;
   transform: translateY(-50%);
 
-  fill: #212121;
+  fill: icon(icon-black);
 
   .form__input:focus + & {
-    fill: #2196f3;
+    fill: icon(active-blue);
   }
+  transition: fill 250ms $cubic;
 }
 
 // Textarea
@@ -65,16 +66,16 @@ form {
 
   &:focus,
   &:hover {
-    border-color: #2196f3;
+    border-color: $hover-blue;
   }
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms $cubic;
 
   &::placeholder {
     font-size: 12px;
     line-height: 1.166;
     letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
+    color: $placeholder;
   }
 }
 
@@ -110,25 +111,25 @@ form {
   width: 16px;
   height: 15px;
 
-  border: 2px solid #212121;
+  border: 2px solid icon(icon-black);
   border-radius: 2px;
-  fill: #fff;
+  fill: icon(check-white);
   cursor: pointer;
 
   &:focus,
   &:hover {
-    border-color: #2196f3;
+    border-color: $hover-blue;
   }
   .checkbox__input:checked + & {
-    background-color: #2196f3;
-    border-color: #2196f3;
+    background-color: icon(active-blue);
+    border-color: icon(active-blue);
   }
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms $cubic,
+    border-color 250ms $cubic;
 }
 
 .checkbox__link {
   margin-left: 4px;
-  color: #2196f3;
+  color: btn(active-blue);
   text-decoration: none;
 }

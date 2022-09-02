@@ -4,18 +4,20 @@
 
 .features {
   list-style: none;
+  flex-basis: calc((100% - 30px * 3) / 4);
 }
 .features__icon-bgd {
   @include centering-flex;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
 
-  background: #f5f4fa;
+  background: btn(bgd-filter);
   border-radius: 4px;
 }
+
 .features__icon {
 }
+
 .features__title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -23,7 +25,7 @@
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: text(titel-black);
 }
 .features__desc {
   font-weight: 400;
