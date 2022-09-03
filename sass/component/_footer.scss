@@ -67,6 +67,7 @@
   &:hover,
   &:focus {
     border-color: $hover-blue;
+    outline:$hover-blue;   
   }
   transition: border-color 250ms $cubic;
 }

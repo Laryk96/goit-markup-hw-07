@@ -590,6 +590,7 @@ img {
 }
 .form-footer__link:hover, .form-footer__link:focus {
   border-color: #2196f3;
+  outline: #2196f3;
 }
 
 .backdrop {
@@ -680,6 +681,7 @@ img {
 }
 .form__input:hover, .form__input:focus {
   border-color: #2196f3;
+  outline-color: #2196f3;
 }
 
 .form__icon {
