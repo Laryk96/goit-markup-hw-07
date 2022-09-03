@@ -25,11 +25,11 @@
   }
   transition: color 250ms $cubic;
 }
-.site-nav__link--current {
+.current-page {
   position: relative;
 }
 
-.site-nav__link--current::after {
+.current-page::after {
   content: "";
   display: block;
   width: 100%;

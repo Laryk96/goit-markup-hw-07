@@ -23,7 +23,7 @@
         <a class="logo" href="./index.html"><span class="logo__label">Web</span>Studio</a>
         <ul class="site-nav">
           <li>
-            <a href="./index.html" class="site-nav__link site-nav__link--current">Студія</a>
+            <a href="./index.html" class="site-nav__link current-page">Студія</a>
           </li>
           <li>
             <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
@@ -33,17 +33,17 @@
           </li>
         </ul>
       </nav>
-      <ul class="header-contact">
-        <li class="header-contact__item">
-          <a href="mailto:info@devstudio.com" class="header-contact_link">
-            <svg class="header-contact__icon" width="15.2" height="12px">
+      <ul class="contact">
+        <li class="contact__item">
+          <a href="mailto:info@devstudio.com" class="contact_link">
+            <svg class="contact__icon" width="15.2" height="12px">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="header-contact__item">
-          <a href="tel:+380961111111" class="header-contact_link">
-            <svg class="header-contact__icon" width="10px" height="16px">
+        <li class="contact__item">
+          <a href="tel:+380961111111" class="contact_link">
+            <svg class="contact__icon" width="10px" height="16px">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11</a>
@@ -53,6 +53,7 @@
   </header>
   <!--Main-->
   <main>
+    
     <section class="main-section">
       <h1 class="main-section__title">
         Ефективні рішення для вашого бізнесу
@@ -64,9 +65,9 @@
     <section class="section section--features">
       <div class="container">
         <h2 class="visually-hidden">Особливості</h2>
-        <ul class="card-set">
-          <li class="features">
-            <div class="features__icon-bgd">
+        <ul class="features">
+          <li class="features__item">
+            <div class="features__bgd">
               <svg class="features__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
@@ -77,8 +78,8 @@
               формування позиції.
             </p>
           </li>
-          <li class="features">
-            <div class="features__icon-bgd">
+          <li class="features__item">
+            <div class="features__bgd">
               <svg class="features__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
@@ -88,8 +89,8 @@
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
-          <li class="features">
-            <div class="features__icon-bgd">
+          <li class="features__item">
+            <div class="features__bgd">
               <svg class="features__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
@@ -99,8 +100,8 @@
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="features">
-            <div class="features__icon-bgd">
+          <li class="features__item">
+            <div class="features__bgd">
               <svg class="features__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
@@ -114,11 +115,11 @@
         </ul>
       </div>
     </section>
-    <section class="section section--work">
+    <section class="section">
       <div class="container">
         <h2 class="section__title">Чим ми займаємося</h2>
-        <ul class=" card-set">
-          <li class="work">
+        <ul class="work">
+          <li class="work__item">
             <div class="work__tumb">
               <img src="./images/work/left.jpg"
                 alt="Робота за двома комп'ютерамии,один має великий єкран,а другий(планшет)лежить знизу,поряд клавіатура та вимкнений монітор ще одного комп'ютера"
@@ -148,17 +149,17 @@
     <section class="section section--team">
       <h2 class="section__title">Наша команда</h2>
       <div class="container">
-        <ul class="card-set">
-          <li class="profil">
+        <ul class="team">
+          <li class="team__item">
             <img src="./images/team/igor.jpg"
               alt="Чоловік років 30-35, темне волосся, борода, в окулярах,посміхається,одягнений в коричневу сорочку"
               width="270" />
-            <div class="profil__meta">
-              <h3 class="profil__name">Ігор Дем'яненко</h3>
-              <p class="profil__job-title" lang="en">Product Designer</p>
+            <div class="team__meta">
+              <h3 class="team__name">Ігор Дем'яненко</h3>
+              <p class="team__job-title" lang="en">Product Designer</p>
               <ul class="network">
                 <li class="network__item">
-                  <a class="network__link network__link--bgd" href="https://www.instagram.com/" target="_blank"
+                  <a class="network__link" href="https://www.instagram.com/" target="_blank"
                     rel="noopener nofollow noreferrer">
                     <svg class="network__icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-instagram"></use>
@@ -166,7 +167,7 @@
                   </a>
                 </li>
                 <li class="network__item">
-                  <a class="network__link network__link--bgd" href="https://twitter.com" target="_blank"
+                  <a class="network__link" href="https://twitter.com" target="_blank"
                     rel="noopener nofollow noreferrer">
                     <svg class="network__icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-twitter"></use>
@@ -174,7 +175,7 @@
                   </a>
                 </li>
                 <li class="network__item">
-                  <a class="network__link network__link--bgd" href="https://www.facebook.com/" target="_blank"
+                  <a class="network__link" href="https://www.facebook.com/" target="_blank"
                     rel="noopener nofollow noreferrer">
                     <svg class="network__icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-facebook"></use>
@@ -182,7 +183,7 @@
                   </a>
                 </li>
                 <li class="network__item">
-                  <a class="network__link network__link--bgd" href="https://www.linkedin.com/" target="_blank"
+                  <a class="network__link" href="https://www.linkedin.com/" target="_blank"
                     rel="noopener nofollow noreferrer">
                     <svg class="network__icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-linkedin"></use>
@@ -192,13 +193,13 @@
               </ul>
             </div>
           </li>
-          <li class="profil">
+          <li class="team__item">
             <img src="./images/team/olga.jpg"
               alt="Жінка,років 25-30,блондинка,довге волосся,в окулярах, одягнута в чорний піджак та білу сорочку"
               width="270" />
-            <div class="profil__meta">
-              <h3 class="profil__name">Ольга Рєпіна</h3>
-              <p class="profil__job-title" lang="en">Frontend Developer</p>
+            <div class="team__meta">
+              <h3 class="team__name">Ольга Рєпіна</h3>
+              <p class="team__job-title" lang="en">Frontend Developer</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -235,12 +236,12 @@
               </ul>
             </div>
           </li>
-          <li class="profil">
+          <li class="team__item">
             <img src="./images/team/mikola.jpg"
               alt="Чоловік,років 25-30,темне коротке волосся,одягнений у світлу сорочку" width="270" />
-            <div class="profil__meta">
-              <h3 class="profil__name">Микола Тарасов</h3>
-              <p class="profil__job-title" lang="en">Marketing</p>
+            <div class="team__meta">
+              <h3 class="team__name">Микола Тарасов</h3>
+              <p class="team__job-title" lang="en">Marketing</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -277,12 +278,12 @@
               </ul>
             </div>
           </li>
-          <li class="profil">
+          <li class="team__item">
             <img src="./images/team/michael.jpg" alt="Чоловік,років 30, одягнений у чорну футболку,в окулярах"
               width="270" />
-            <div class="profil__meta">
-              <h3 class="profil__name">Михайло Єрмаков</h3>
-              <p class="profil__job-title" lang="en">UI Designer</p>
+            <div class="team__meta">
+              <h3 class="team__name">Михайло Єрмаков</h3>
+              <p class="team__job-title" lang="en">UI Designer</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -325,43 +326,43 @@
     <section class="section">
       <div class="container">
         <h2 class="section__title">Постійні клієнти</h2>
-        <ul class="card-set">
-          <li class="client">
+        <ul class="client">
+          <li class="client__item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="client__link">
               <svg class="client__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-logo"></use>
               </svg>
             </a>
           </li>
-          <li class="client">
+          <li class="client__item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="client__link">
               <svg class="client__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-1"></use>
               </svg>
             </a>
           </li>
-          <li class="client">
+          <li class="client__item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="client__link">
               <svg class="client__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-2"></use>
               </svg>
             </a>
           </li>
-          <li class="client">
+          <li class="client__item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="client__link">
               <svg class="client__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-3"></use>
               </svg>
             </a>
           </li>
-          <li class="client">
+          <li class="client__item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="client__link">
               <svg class="client__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-4"></use>
               </svg>
             </a>
           </li>
-          <li class="client">
+          <li class="client__item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="client__link">
               <svg class="client__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-5"></use>
@@ -377,18 +378,18 @@
     <div class="container footer__container">
       <div class="footer__address-box">
         <a class="logo footer__logo" href="./index.html"><span class="logo__label">Web</span>Studio</a>
-        <address class="footer__address">
-          <ul class="footer-contact">
-            <li class="footer-contact__item">
-              <a href="https://goo.gl/maps/6nsa5F7GKTP2XK6V9" class="footer-contact__link footer-contact__link--color"
-                target="_blank" rel="noopener noreferrer">
+        <address class="address">
+          <ul class="address__list">
+            <li class="address__item">
+              <a href="https://goo.gl/maps/6nsa5F7GKTP2XK6V9" class="address__link address__link--color" target="_blank"
+                rel="noopener noreferrer">
                 м. Київ, пр-т Лесі Українки, 26</a>
             </li>
-            <li class="footer-contact__item">
-              <a href="mailto:info@example.com" class="footer-contact__link">info@example.com</a>
+            <li class="address__item">
+              <a href="mailto:info@example.com" class="address__link">info@example.com</a>
             </li>
-            <li class="footer-contact__item">
-              <a href="tel:+380991111111" class="footer-contact__link">+38 099 111 11 11</a>
+            <li class="address__item">
+              <a href="tel:+380991111111" class="address__link">+38 099 111 11 11</a>
             </li>
           </ul>
         </address>
@@ -397,7 +398,7 @@
         <h2 class="footer__title">приєднуйтесь</h2>
         <ul class="network">
           <li class="network__item">
-            <a class="network__link network__link--bgd" href="https://www.instagram.com/" target="_blank"
+            <a class="network__link" href="https://www.instagram.com/" target="_blank"
               rel="noopener nofollow noreferrer">
               <svg class="network__icon" width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram"></use>
@@ -405,15 +406,14 @@
             </a>
           </li>
           <li class="network__item">
-            <a class="network__link network__link--bgd" href="https://twitter.com" target="_blank"
-              rel="noopener nofollow noreferrer">
+            <a class="network__link" href="https://twitter.com" target="_blank" rel="noopener nofollow noreferrer">
               <svg class="network__icon" width="20px" height="20px">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="network__item">
-            <a class="network__link network__link--bgd" href="https://www.facebook.com/" target="_blank"
+            <a class="network__link" href="https://www.facebook.com/" target="_blank"
               rel="noopener nofollow noreferrer">
               <svg class="network__icon" width="20px" height="20px">
                 <use href="./images/icons.svg#icon-facebook"></use>
@@ -421,7 +421,7 @@
             </a>
           </li>
           <li class="network__item">
-            <a class="network__link network__link--bgd" href="https://www.linkedin.com/" target="_blank"
+            <a class="network__link" href="https://www.linkedin.com/" target="_blank"
               rel="noopener nofollow noreferrer">
               <svg class="network__icon" width="20px" height="20px">
                 <use href="./images/icons.svg#icon-linkedin"></use>

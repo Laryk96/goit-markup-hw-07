@@ -1,4 +1,8 @@
 .client {
+  @include flex-gap;
+}
+
+.client__item {
   width: 170px;
   height: 92px;
 }

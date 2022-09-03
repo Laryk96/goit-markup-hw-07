@@ -3,17 +3,16 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer__container {
   display: flex;
   align-items: baseline;
 }
+
 .footer__address-box {
   margin-right: 67px;
 }
 
-.footer__address {
-  font-style: normal;
-}
 
 /**
   |============================
@@ -44,30 +43,3 @@
 .footer__form-box {
 }
 
-.form-footer {
-  display: flex;
-  gap: 11px;
-}
-
-.form-footer__field {
-}
-.form-footer__link {
-  padding: 15px 16px;
-  width: 358px;
-  height: 50px;
-
-  font-size: 16px;
-  line-height: 1.25;
-  color: text(other-white);
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-
-  &:hover,
-  &:focus {
-    border-color: $hover-blue;
-    outline:$hover-blue;   
-  }
-  transition: border-color 250ms $cubic;
-}

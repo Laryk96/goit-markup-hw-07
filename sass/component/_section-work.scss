@@ -1,6 +1,11 @@
+.work{
+  @include flex-gap;
+}
+
 .work__tumb {
   position: relative;
 }
+
 .work__overlay {
   @include centering-flex;
   position: absolute;
