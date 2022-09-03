@@ -22,8 +22,7 @@
 }
 
 .card-set {
-  @include centering-flex;
-  // display: flex;
+  display: flex;
   gap: 30px;
   list-style: none;
 }
