@@ -1,11 +1,11 @@
 .client {
-  max-width: 170px;
+  width: 170px;
   height: 92px;
 }
 
 .client__link {
   @include centering-flex;
-  padding: 16px 31px;
+
   width: 100%;
   height: 100%;
 
