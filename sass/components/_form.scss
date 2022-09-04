@@ -34,12 +34,13 @@ form {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
+  transition: border-color 250ms $cubic;
+
   &:hover,
   &:focus {
     border-color: $hover-blue;
     outline-color: $hover-blue;
   }
-  transition: border-color 250ms $cubic;
 }
 
 .form__icon {
@@ -50,10 +51,11 @@ form {
 
   fill: icon(icon-black);
 
+  transition: fill 250ms $cubic;
+
   .form__input:focus + & {
     fill: icon(active-blue);
   }
-  transition: fill 250ms $cubic;
 }
 
 // Textarea
@@ -65,17 +67,18 @@ form {
 
   resize: none;
 
+  transition: border-color 250ms $cubic;
+
   &:focus,
   &:hover {
     border-color: $hover-blue;
+    outline-color: $hover-blue;
   }
-  transition: border-color 250ms $cubic;
 
   &::placeholder {
     font-size: 12px;
     line-height: 1.166;
     letter-spacing: 0.01em;
-
     color: $placeholder;
   }
 }
@@ -117,6 +120,8 @@ form {
   fill: icon(check-white);
   cursor: pointer;
 
+  transition: background-color 250ms $cubic, border-color 250ms $cubic;
+
   &:focus,
   &:hover {
     border-color: $hover-blue;
@@ -125,8 +130,6 @@ form {
     background-color: icon(active-blue);
     border-color: icon(active-blue);
   }
-  transition: background-color 250ms $cubic,
-    border-color 250ms $cubic;
 }
 
 .checkbox__link {
