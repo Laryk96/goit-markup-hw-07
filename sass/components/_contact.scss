@@ -1,4 +1,3 @@
-
 .contact {
   display: flex;
   align-items: center;
@@ -9,7 +8,7 @@
   list-style: none;
 }
 
-.contact_link {
+.contact__link {
   display: flex;
   align-items: center;
 
@@ -20,11 +19,12 @@
   color: text(main-gray);
   text-decoration: none;
 
+  transition: color 250ms $cubic;
+
   &:hover,
   &:focus-visible {
     color: $hover-blue;
   }
-  transition: color 250ms $cubic;
 }
 .contact__icon {
   margin-right: 10px;

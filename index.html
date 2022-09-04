@@ -35,14 +35,14 @@
       </nav>
       <ul class="contact">
         <li class="contact__item">
-          <a href="mailto:info@devstudio.com" class="contact_link">
+          <a href="mailto:info@devstudio.com" class="contact__link">
             <svg class="contact__icon" width="15.2" height="12px">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
         <li class="contact__item">
-          <a href="tel:+380961111111" class="contact_link">
+          <a href="tel:+380961111111" class="contact__link">
             <svg class="contact__icon" width="10px" height="16px">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
@@ -53,16 +53,16 @@
   </header>
   <!--Main-->
   <main>
-    
+
     <section class="main-section">
       <h1 class="main-section__title">
         Ефективні рішення для вашого бізнесу
       </h1>
-      <button type="button" class="btn-main" data-open-modal="">
+      <button type="button" class="button-form" data-open-modal="">
         Замовити послугу
       </button>
     </section>
-    <section class="section section--features">
+    <section class="section">
       <div class="container">
         <h2 class="visually-hidden">Особливості</h2>
         <ul class="features">
@@ -115,7 +115,7 @@
         </ul>
       </div>
     </section>
-    <section class="section">
+    <section class="section saction--no-padding-top">
       <div class="container">
         <h2 class="section__title">Чим ми займаємося</h2>
         <ul class="work">
@@ -146,17 +146,17 @@
         </ul>
       </div>
     </section>
-    <section class="section section--team">
-      <h2 class="section__title">Наша команда</h2>
+    <section class="section section--other-bgd">
       <div class="container">
+        <h2 class="section__title">Наша команда</h2>
         <ul class="team">
           <li class="team__item">
             <img src="./images/team/igor.jpg"
               alt="Чоловік років 30-35, темне волосся, борода, в окулярах,посміхається,одягнений в коричневу сорочку"
               width="270" />
             <div class="team__meta">
-              <h3 class="team__name">Ігор Дем'яненко</h3>
-              <p class="team__job-title" lang="en">Product Designer</p>
+              <h3 class="team__title">Ігор Дем'яненко</h3>
+              <p class="team__text" lang="en">Product Designer</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -198,8 +198,8 @@
               alt="Жінка,років 25-30,блондинка,довге волосся,в окулярах, одягнута в чорний піджак та білу сорочку"
               width="270" />
             <div class="team__meta">
-              <h3 class="team__name">Ольга Рєпіна</h3>
-              <p class="team__job-title" lang="en">Frontend Developer</p>
+              <h3 class="team__title">Ольга Рєпіна</h3>
+              <p class="team__text" lang="en">Frontend Developer</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -240,8 +240,8 @@
             <img src="./images/team/mikola.jpg"
               alt="Чоловік,років 25-30,темне коротке волосся,одягнений у світлу сорочку" width="270" />
             <div class="team__meta">
-              <h3 class="team__name">Микола Тарасов</h3>
-              <p class="team__job-title" lang="en">Marketing</p>
+              <h3 class="team__title">Микола Тарасов</h3>
+              <p class="team__text" lang="en">Marketing</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -282,8 +282,8 @@
             <img src="./images/team/michael.jpg" alt="Чоловік,років 30, одягнений у чорну футболку,в окулярах"
               width="270" />
             <div class="team__meta">
-              <h3 class="team__name">Михайло Єрмаков</h3>
-              <p class="team__job-title" lang="en">UI Designer</p>
+              <h3 class="team__title">Михайло Єрмаков</h3>
+              <p class="team__text" lang="en">UI Designer</p>
               <ul class="network">
                 <li class="network__item">
                   <a class="network__link" href="https://www.instagram.com/" target="_blank"
@@ -438,7 +438,7 @@
               autocomplete="off" />
           </div>
           <button class="btn-subscribe">
-            Підписатися
+            Підписатися 
             <svg class="btn-subscribe__icon" width="24px" height="24px">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>

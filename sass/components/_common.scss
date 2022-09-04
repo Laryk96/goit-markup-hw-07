@@ -3,6 +3,15 @@
   padding-bottom: 94px;
 }
 
+.saction--no-padding-top{
+  padding-top: 0;
+}
+
+
+.section--other-bgd{
+  background-color: $team-bgd;
+}
+
 .section__title {
   text-align: center;
   margin-bottom: 50px;

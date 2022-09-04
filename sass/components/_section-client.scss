@@ -17,12 +17,13 @@
   border-radius: 4px;
   color: icon(fill-gray);
 
+  transition: color 250ms $cubic, border-color 250ms $cubic;
+
   &:hover,
   &:focus {
     border-color: $hover-blue;
     color: $hover-blue;
   }
-  transition: color 250ms $cubic, border-color 250ms $cubic;
 }
 .client__icon {
   fill: currentColor;

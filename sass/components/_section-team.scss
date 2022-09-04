@@ -1,6 +1,3 @@
-.section--team {
-  background-color: $team-bgd;
-}
 
 .team{
     @include flex-gap;
@@ -25,7 +22,7 @@
   letter-spacing: 0.03em;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -37,6 +34,6 @@
   color: text(titel-black);
 }
 
-.team__job-title {
+.team__text {
   margin-bottom: 16px;
 }

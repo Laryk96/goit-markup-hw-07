@@ -8,8 +8,7 @@
   z-index: 3;
   visibility: visible;
 
-  transition: opacity 500ms $cubic,
-    visibility 500ms $cubic;
+  transition: opacity 500ms $cubic, visibility 500ms $cubic;
 }
 
 .backdrop.is-hidden {
@@ -32,10 +31,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
+  transition: transform 500ms $cubic;
+
   .backdrop.is-hidden & {
     transform: translate(-50%, -200%) scale(0.1);
   }
-  transition: transform 500ms $cubic;
 }
 
 .modal__title {

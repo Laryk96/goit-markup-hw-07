@@ -19,11 +19,12 @@
   color: text(titel-black);
   text-decoration: none;
 
+  transition: color 250ms $cubic;
+  
   &:hover,
   &:focus {
     color: $hover-blue;
   }
-  transition: color 250ms $cubic;
 }
 .current-page {
   position: relative;

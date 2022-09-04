@@ -18,7 +18,7 @@
   |  Animation
   |============================
 */
-.btn-send, .btn-subscribe, .btn-main {
+.btn-send, .btn-subscribe, .button-form {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -31,7 +31,7 @@
   border: none;
   cursor: pointer;
 }
-.btn-send:active, .btn-subscribe:active, .btn-main:active {
+.btn-send:active, .btn-subscribe:active, .button-form:active {
   background-color: #188ce8;
 }
 
@@ -76,6 +76,14 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.saction--no-padding-top {
+  padding-top: 0;
+}
+
+.section--other-bgd {
+  background-color: #f5f4fa;
 }
 
 .section__title {
@@ -196,7 +204,7 @@ img {
   list-style: none;
 }
 
-.contact_link {
+.contact__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,7 +220,7 @@ img {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact_link:hover, .contact_link:focus-visible {
+.contact__link:hover, .contact__link:focus-visible {
   color: #2196f3;
 }
 
@@ -247,7 +255,7 @@ img {
   text-transform: uppercase;
 }
 
-.btn-main {
+.button-form {
   padding: 10px 32px;
   min-width: 216px;
 }
@@ -301,10 +309,6 @@ img {
 
 .btn-close__icon {
   fill: currentColor;
-}
-
-.section--features {
-  padding-bottom: 0;
 }
 
 .features {
@@ -389,10 +393,6 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.section--team {
-  background-color: #f5f4fa;
-}
-
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -418,7 +418,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -428,7 +428,7 @@ img {
   color: #212121;
 }
 
-.team__job-title {
+.team__text {
   margin-bottom: 16px;
 }
 
@@ -879,19 +879,19 @@ img {
       flex-wrap: wrap;
 }
 
-.project__card {
+.project__item {
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
       flex-basis: calc((100% - 60px) / 3);
   background-color: #fff;
 }
-.project__card:hover, .project__card:focus {
-  border: 1px solid #eeeeee;
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
 .project__link {
+  display: block;
   text-decoration: none;
+}
+.project__link:hover, .project__link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project__tumb {
